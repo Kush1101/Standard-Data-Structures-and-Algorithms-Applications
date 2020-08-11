@@ -5,7 +5,7 @@ Created on Wed Apr 15 20:46:17 2020
 @author: DeLL
 """
 import time
-import random_objects
+from lib.random_objetcs import * as ro
 def naive_solution(arr,x):
     for i in range(len(arr)):
         for j in range(i+1,len(arr)):
@@ -17,9 +17,9 @@ def naive_solution(arr,x):
 
 if __name__=="__main__":
     start = time.time()
-    test_arr = random_objects.random_list(10,1,100)
+    test_arr = ro.random_list(10,1,100)
     print(test_arr)
-    summ = random_objects.random_integer(1,50)
+    summ = ro.random_integer(1,50)
     print(summ)
     print(naive_solution(test_arr,summ))  
     print("Completed in ",time.time()-start)
