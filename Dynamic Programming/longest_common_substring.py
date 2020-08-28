@@ -13,7 +13,7 @@ This approach will take O(m*n^2), where m and n are lengths of the two strings.
 
 However, an efficient approach is to use the technique of dynamic programming.
 The idea here is to find the longest common suffix for all substrigs of the two
-and store these lengths in a table.
+and store these lengths in a table. This approach will arrive at an answer in O(m*n) time.
 Let's see the implementaton of this.
 """
 
