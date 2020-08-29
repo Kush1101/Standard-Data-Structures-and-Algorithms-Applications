@@ -66,11 +66,11 @@ https://www.geeksforgeeks.org/ugly-numbers/
 def ugly_numbers(n: int) -> int:
     """
     Uses dynamic programming technique to return the nth ugly number.
-    >>> naive_solution(100)
+    >>> ugly_numbers(100)
     1536
-    >>> naive_solution(1)
+    >>> ugly_numbers(1)
     1
-    >>> naive_solution(20)
+    >>> ugly_numbers(20)
     36
     """
     ugly_nums = [0] * (n)
