@@ -4,4 +4,4 @@ we can optimize it using Dynamic Programming. The idea is to simply store the re
 needed later. This simple optimization reduces time complexities from exponential to polynomial. For example, if we write simple recursive solution for
 Fibonacci Numbers, we get exponential time complexity and if we optimize it by storing solutions of subproblems, time complexity reduces to linear.
 
-Chechout [this](https://www.geeksforgeeks.org/dynamic-programming/) awesome resource for more on Dynamic programming.
+Checkout [this](https://www.geeksforgeeks.org/dynamic-programming/) awesome resource for more on Dynamic programming.
