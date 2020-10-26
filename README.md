@@ -1,1 +1,1 @@
-# Standard-Data-Structures-and-Algorithms-Applications
+Zyada gand na sujao... maa chod denge tumharii!!
